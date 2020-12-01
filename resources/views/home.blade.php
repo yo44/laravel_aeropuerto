@@ -13,17 +13,17 @@
 <body>
   <!-----------------Header con barra de menu------------------------------>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Prolaravel</a>
+  <a class="navbar-brand" href="#">aeroBOLIVIA</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="{{url('/home')}}">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{url('/home/')}}">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{url('/contacto/')}}">Contacto</a>
+        <a class="nav-link" href="{{url('/contacto/')}}">Reserva</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="{{url('/servicios/')}}">Servicios</a>
@@ -35,6 +35,32 @@
     </form>
   </div>
 </nav>
+<div class="row">
+		<div class="col-12">
+			<h1>Turismo</h1>
+		</div>
+
+		<div class="col-6">
+			<div class="card">
+			  <div class="card-body">
+			    <h5 class="card-title">Nacional</h5>
+			    <p class="card-text"><img src="img/4.png" width="500" height="300"></p>
+			    <a href="#" class="card-link">link</a>
+			  </div>
+			</div>
+		</div>
+
+		<div class="col-6">
+			<div class="card">
+			  <div class="card-body">
+			    <h5 class="card-title">Internacional</h5>
+			    <p class="card-text"><img src="/img/3.png" width="500" height="300"></p>
+			    <a href="#" class="card-link">link</a>
+			  </div>
+			</div>
+		</div>
+	</div>
+
 <!-----------------Seccion de contenido------------------------------>
 	<div class="container">
 		@yield('contenido')

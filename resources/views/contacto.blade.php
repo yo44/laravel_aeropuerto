@@ -9,7 +9,7 @@
 
 <div class="row">
 	<div class="col-12">
-		<h1>Contacto</h1>
+		<h1>Reserva</h1>
 		<div class="card">
 			  <div class="card-body">
 			    <form>
